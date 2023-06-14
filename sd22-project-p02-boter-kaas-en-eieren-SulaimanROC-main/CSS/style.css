@@ -1,0 +1,100 @@
+@font-face {
+    font-family:Creepster;
+    src:url(..//Creepster-Regular.ttf);
+}
+
+
+h1 {
+text-align: center;
+font-size: 90px;
+font-family:Creepster;
+}
+
+
+
+body {
+background-color: blue;
+background-image: linear-gradient(red, blue);
+height: 1000px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+overflow-y: hidden;
+}
+
+
+.area {
+width: 100px;
+height: 100px;
+background-image: radial-gradient( lightblue, lightsalmon);
+text-align: center;
+margin-top: 5px;
+line-height: 100px;
+margin-left: 5px;
+font-size: 85px;
+
+}
+
+.container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+background-color: red;
+width: 325px;
+height: 320px;
+margin: auto;
+margin-top: 200px;    
+    background-image: linear-gradient(red, blue); 
+
+}
+
+.playerOne {
+margin-left: 500px;
+
+font-size: 25px;
+color: white;
+}
+
+.playerTwo {
+margin-top: 10px;
+font-size: 25px;
+color: white;
+}
+
+.points {
+    color: white;
+    width: 400px;
+    margin-left: 200px;
+    position: relative;
+    top: -500px;
+    font-size: 50px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+
+.restart {
+    width: 125px;
+    height: 25px;
+    background-color: indigo;
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 150px;
+    margin-left: 900px;
+}
+
+.turns{
+    width: 300%;
+    height: 25px;
+    background-color: indigo;
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.other-container {
+    width: 250px;
+    height: 100px;
+}
